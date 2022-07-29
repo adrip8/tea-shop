@@ -1,9 +1,169 @@
 *{
+    
+    
+    
+    
+    
+    
+}
+body{
     background-color:black;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: seashell;
+}
+
+
+
+.navbar{
+    height: 69px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    
+}
+
+
+
+ #img-logo{
+    height: 50px;
+    justify-content: center ;
+    margin-left: 10px;
+    align-items: center;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    text-decoration: underline;
+    margin: 0 10px;
+
+   
+}
+
+.background-mission{
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*10uoad5*_ga*NTk0NjE1MzkxLjE2NTQwMzc0MzQ.*_ga_3LRZM6TM9L*MTY1ODg4MDQ3OC4xMjEuMC4xNjU4ODgwNDc4LjYw");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 70px;
 }
 
 .mission{
+ background-color: black;
+ text-align: center;
+ position: relative;
+ top:50%;
+}
+
+.tea-month{
+    width: 1200px;
+    position: relative;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.tea-month{
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.images-shop{
+    display: inline-flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    margin-bottom: 30px; 
+}
+
+figure{
+    margin: 10px;
+    text-align: center;
+    display: block;
+}
+h4{
+    margin-bottom: 20px;
+}
+
+h2{
+    background-color: ;
+}
+
+.locations{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*r7cc4y*_ga*NTk0NjE1MzkxLjE2NTQwMzc0MzQ.*_ga_3LRZM6TM9L*MTY1ODg4MDQ3OC4xMjEuMC4xNjU4ODgwNDc4LjYw") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    height: 500px;
+    border: 1px solid black;
+    display: block;
+    
+}
+
+.locations > h2{
+    margin-top: 100px;
+
 
 }
+
+.locations .block{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;    
+}
+
+.loc{
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.loc > p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.loc > h3{
+    margin-top: 15px;
+}
+
+.contact{
+
+    position: relative;
+    height: 200px;
+    margin-top: 15px;
+    left: 35%;
+    width: 500px;
+    text-align: center;
+}
+
+footer p {
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
